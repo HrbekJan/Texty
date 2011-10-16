@@ -10,7 +10,7 @@
 \date{\today}
 \title{Agros2D-řešení přestupu tepla ve zdivu}
 \maketitle
- Tento seriál navazuje na nedávno publikovanou recenzi Agros2D – aplikace pro řešení fyzikálních polí. V tomto úvodním díle si na příkladu řešení přestupu tepla ve zdivu ilustrativního domu ukážeme základy práce s aplikací.
+	Tento seriál navazuje na nedávno publikovanou recenzi Agros2D – aplikace pro řešení fyzikálních polí. V tomto úvodním díle si na příkladu řešení přestupu tepla ve zdivu ilustrativního domu ukážeme základy práce s aplikací.
 \tableofcontents
 \newpage
 \section{Úvod}
@@ -124,7 +124,7 @@ LAMBDA\_drevo = 0.11\\
 \caption{Výpočet tepelného toku}
 \end{figure}
 
-	Další důležitou věcí, která se při tepelných výpočtech budov sleduje je teplota v průběhu celé stěny a především teplota v rozích místnosti. Podle normy ČSN 73 0540-2 pro vnitřní teplotu $20 \circ C$ a venkovní teplotu $-15 \circ C$ by tato teplota neměla klesnout pod teplotu $13 \circ C$ (zdroj: Katalog tepelných mostů. R. Šubrt, P. Zvánovcová, M. Škopek). Zobrazíme si tedy graf teploty po jedné stěně a zjistíme nejnižší teplotu v celém jejím průběhu. Okno pro kreslení grafu lze otevřít pomocí příslušné položky v menu Nástroje. Nejprve musíme nastavit odkud kam chceme graf vykreslit. Zvolíme například stěnu proti dveřím a zadáme souřadnice počátečního a koncového bodu. Pokud zadáte souřadnice na pracovní ploše hlavního okna se zobrazí úsečka, na které se bude graf kreslit. Můžete si tak lehko zkontrolovat, zda graf zobrazuje to co opravdu chcete. Dalších nastavení si pro tento příklad nemusíme všímnat a můžeme vykreslit průběh teploty.\\
+	Další důležitou věcí, která se při tepelných výpočtech budov sleduje je teplota v průběhu celé stěny a především teplota v rozích místnosti. Podle normy ČSN 73 0540-2 pro vnitřní teplotu $20 ^\circ C$ a venkovní teplotu $-15 ^\circ C$ by tato teplota neměla klesnout pod teplotu $13 ^\circ C$ (zdroj: Katalog tepelných mostů. R. Šubrt, P. Zvánovcová, M. Škopek). Zobrazíme si tedy graf teploty po jedné stěně a zjistíme nejnižší teplotu v celém jejím průběhu. Okno pro kreslení grafu lze otevřít pomocí příslušné položky v menu Nástroje. Nejprve musíme nastavit odkud kam chceme graf vykreslit. Zvolíme například stěnu proti dveřím a zadáme souřadnice počátečního a koncového bodu. Pokud zadáte souřadnice na pracovní ploše hlavního okna se zobrazí úsečka, na které se bude graf kreslit. Můžete si tak lehko zkontrolovat, zda graf zobrazuje to co opravdu chcete. Dalších nastavení si pro tento příklad nemusíme všímnat a můžeme vykreslit průběh teploty.\\
 	
 \begin{figure}[htbp]
 \centering
@@ -146,7 +146,7 @@ LAMBDA\_drevo = 0.11\\
 	
 LAMBDA\_izolace = 0.04\\
 	
-	Příklad vyřešíme a znovu provedeme výpočet tepelného toku přes vnější hranici geometrie a vykreslení grafu teploty na již dříve vyšetřované stěně. Tepelný tok je pro tento případ roven 302 W/m a je tedy zhruba poloviční oproti případu bez izolace (639 W/m). Z grafu je patrné, že teplota v celém průběhu ani v kritických rozích neklesá pod $13\circ C$. Zvolená izolace tak výrazně zlepšila zateplení budovy.\\
+	Příklad vyřešíme a znovu provedeme výpočet tepelného toku přes vnější hranici geometrie a vykreslení grafu teploty na již dříve vyšetřované stěně. Tepelný tok je pro tento případ roven 302 W/m a je tedy zhruba poloviční oproti případu bez izolace (639 W/m). Z grafu je patrné, že teplota v celém průběhu ani v kritických rozích neklesá pod $13^\circ C$. Zvolená izolace tak výrazně zlepšila zateplení budovy.\\
 	
 \begin{figure}[htbp]
 \centering
